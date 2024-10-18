@@ -2,7 +2,7 @@ program positif_negatif;
 uses crt;
 
 var bilangan : int64;
-var keterangan : string;
+var keterangan : string[25];
 
 begin
     clrscr;
