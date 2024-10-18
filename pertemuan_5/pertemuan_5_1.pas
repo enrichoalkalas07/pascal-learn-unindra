@@ -20,5 +20,5 @@ begin
             keterangan := 'Bilangan Ganjil';
         end;
 
-    writeln(keterangan);
+    writeln('Hasil Kalkulasi : ', keterangan);
 end.
