@@ -11,7 +11,7 @@ begin
 
     clrscr;
 
-    if ( bilangan % 2 == 0 ) then
+    if ( bilangan mod 2 = 0 ) then
         begin
             keterangan := 'Bilangan Genap';
         end
