@@ -7,10 +7,16 @@ begin
     clrscr;
     i := 10;
     // Perulangan Dari Terbesar Ke Terkecil
-    while ( i >= 1 ) do
+    // while ( i >= 1 ) do
+        // begin
+            // writeln(i);
+            // i := i - 1;
+        // end;
+    
+    i := 25;
+    while ( i >= 0 ) do 
         begin
             writeln(i);
-            i := i - 1;
+            i := i - 5;
         end;
-    
 end.
