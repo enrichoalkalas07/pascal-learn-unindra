@@ -12,14 +12,15 @@ begin
         begin
             j := 1;
             while j <= i do
-        begin
-            write(j, ' ');
-            j := j + 1;
-        end;
+            begin
+                write(j, ' ');
+                j := j + 1;
+            end;
 
         writeLn;
         i := i + 1;
-    end;
+
+        end;
 
     i := 5;
     while i >= 1 do
@@ -32,5 +33,5 @@ begin
                 end;
                 writeLn;
                 i := i - 1;
-        end; 
+        end;
 end.
